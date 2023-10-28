@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
+
+
+$spacing: 1em;
+
+$bodyCopyFontSize: 1em;
+$footnoteFontSize: 0.7em;
+$siteTitleFontSize: 4em;
+
+$borderColor: #000000;
+$borderWidth: 0px;
+$borderStyle: dotted;
+
+
+@mixin border-styles($position) {
+    border-#{$position}-color: $borderColor;
+    border-#{$position}-style: $borderStyle;
+    border-#{$position}-width: $borderWidth;
+}
+
+.gothic {
+    font-family: 'Grenze Gotisch', serif;
+}
+
+.page-content {
+    padding: 0px;
+}
+
+.site-title {
+    color: #000000;
+    font-size: $siteTitleFontSize;
+
+    &:visited {
+        color: #000000;
+    }
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: $spacing;
+    padding-top: $spacing;
+    @include border-styles("bottom");
+}
+.intro {
+    font-size: $bodyCopyFontSize;
+    background-color: #eeeeee;
+    border-radius: 0.5em;
+    padding: $spacing;
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+}
+
+.entry {
+    margin-bottom: $spacing;
+    &:not(:last-child) {
+        @include border-styles("bottom");
+    }
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+    padding-top: $spacing;
+    @include border-styles("top");
+    font-size: $footnoteFontSize;
+    text-align: center;
+}
+
+.audio-player {
+    width: 100%;
+}
+
+.entry-container {
+    margin-top: $spacing;
+    .entry-header {
+        width: 100%;
+        font-size: 2em;
+        margin-bottom: 0.8em;
+        @include border-styles("top");
+    }
+}
+
+
+a {
+    &:link, &:visited {
+        text-decoration: none;
+        color: #cd2020;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+

@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Fetch S3 data.
+name: Fetch Audio Media From S3
 
 # Controls when the workflow will run
 on:
@@ -24,7 +24,7 @@ jobs:
         name: sync folder
         with:
           command: sync
-          source: ${{ secrets.S3_BUCKET }}
+          source: ${{ secrets.S3_BUCKET_MP3 }}
           destination: ./audio/mp3
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -34,5 +34,5 @@ jobs:
          git config --local user.email "action@github.com"
          git config --local user.name "GitHub Action"
          git add .
-         git diff-index --quiet HEAD || git commit -m "{commit message}" -a
+         git diff-index --quiet HEAD || git commit -m "Syncing new audio from S3" -a
          git push origin main:main
