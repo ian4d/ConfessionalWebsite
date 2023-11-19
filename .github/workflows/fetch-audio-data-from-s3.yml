@@ -33,6 +33,7 @@ jobs:
         run: |
          git config --local user.email "action@github.com"
          git config --local user.name "GitHub Action"
+         git pull
          git add .
          git diff-index --quiet HEAD || git commit -m "{commit message}" -a
          git push origin main:main
