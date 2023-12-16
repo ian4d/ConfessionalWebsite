@@ -26,7 +26,8 @@ layout: default
     {% assign audioKey = audio[0] %}
     {% assign audioData = audio[1] %}
     {% assign mediaPath = "audio/mp3/"  | append: audioData.filename %}
-    {% assign fileExists = site.static_files | where: "path", mediaPath | first %}
+    {% assign mediaPathExists = "/audio/mp3/"  | append: audioData.filename %}
+    {% assign fileExists = site.static_files | where: "path", mediaPathExists | first %}
     {% if fileExists %}
         <div class="entry">
             <figure class="audio-figure">
