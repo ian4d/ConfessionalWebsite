@@ -15,7 +15,7 @@ layout: default
     </p>
     <p>
     Call toll-free at <a href="tel:1-844-531-1664">1-844-531-1664</a> and let it all out. 
-    New confessions are published daily.
+    Newly received confessions are published at the start of each day.
     </p>
 </div>
 
