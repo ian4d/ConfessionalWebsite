@@ -6,7 +6,7 @@ layout: default
 ---
 
 <div class="entry-container">
-<div class="entry-header gothic">Terms and Conditions</div>
+<div class="entry-header gothic">Privacy Policy</div>
 <p><strong>Last Updated: November 23, 2026</strong></p>
 
   <section>
