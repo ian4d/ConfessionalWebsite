@@ -149,7 +149,7 @@ layout: default
     <p>For questions concerning these Terms and Conditions, please contact:</p>
     <address>
     <strong>confessitnow.com</strong><br>
-    Email: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a><br>
+    Email: <a href="mailto:ianl4d+confessor@gmail.com">Webmaster</a><br>
     Location: Washington State, United States<br>
     Website: <a href="https://confessitnow.com/">https://confessitnow.com/</a>
     </address>

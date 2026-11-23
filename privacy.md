@@ -147,7 +147,7 @@ layout: default
     <p>If you have questions about this Privacy Policy or our privacy practices, please contact:</p>
     <address>
     <strong>confessitnow.com</strong><br>
-    Email: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a><br>
+    Email: <a href="mailto:ianl4d+confessor@gmail.com">Webmaster</a><br>
     Location: Washington State, United States<br>
     Website: <a href="https://confessitnow.com/">https://confessitnow.com/</a>
     </address>

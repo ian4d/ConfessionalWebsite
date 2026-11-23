@@ -17,6 +17,9 @@ layout: default
     Call toll-free at <a href="tel:1-844-531-1664">1-844-531-1664</a> and let it all out. 
     Newly received confessions are published at the start of each day.
     </p>
+    <p class="footer">
+    By dialing this number you consent to allowing a recording of your confesssion to be published on this website. With the exception of your phone number your personal data is neither collected nor retained by this service, and is never shared with third parties or published on this website.
+    </p>
 </div>
 
 <div class="entry-container">
